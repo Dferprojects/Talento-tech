@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    height: 3rem;
+    background-color: blanchedalmond;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: 3rem;
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 30px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    gap: 2vw;
+    padding: 1rem;
+    width:25rem;
+}
+
+main{
+    height: 80vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    height:10rem;
+    width:18rem;
+    padding: 5px;
+}
+
+footer{
+    height: 3rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

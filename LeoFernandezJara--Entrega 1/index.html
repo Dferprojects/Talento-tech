@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <title>Formulario - Leonardo Fernández Jara</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">Products</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="form__section">
+            <form action="https://formspree.io/f/mldenyow" method="post">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>    
+                    <label for="lastame">Your Lastname:</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input name="Email" id="email" type="email" required>
+                </div>
+                <div>
+                    <textarea name="message" id="message" placeholder="Write a message..." required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Sitio web desarrollado por Leonardo Fernández Jara</h4>
+    </footer>
+</body>
+</html>
