@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    height: 3rem;
+    background: rgb(8,7,34);
+    background: linear-gradient(90deg, rgba(8,7,34,1) 36%, rgba(54,56,13,1) 84%, rgba(43,45,18,1) 100%, rgba(156,58,26,1) 100%, rgba(44,195,4,1) 100%, rgba(40,255,0,1) 100%);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: 3rem;
+    font-size: 1.1rem;
+}
+
+a{
+    color: white;
+}
+
+nav a:hover{
+    text-shadow: 2px 2px 20px white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    gap: 2vw;
+    padding: 1rem;
+    width:25rem;
+    background: url("../imgs/back.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 5px 5px 20px black;
+}
+
+.form__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+main{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/background.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1,h2{
+  color: white;
+  text-shadow: 2px 2px 20px black;
+  font-weight: 600;
+}
+
+textarea{
+    height:10rem;
+    width:18rem;
+    padding: 5px;
+}
+
+footer{
+    height: 3rem;
+    background: rgb(8,7,34);
+    background: linear-gradient(90deg, rgba(8,7,34,1) 36%, rgba(54,56,13,1) 84%, rgba(43,45,18,1) 100%, rgba(156,58,26,1) 100%, rgba(44,195,4,1) 100%, rgba(40,255,0,1) 100%);    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#btn__form{
+    padding: 5px 10px;
+}
+
+#btn__form:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
